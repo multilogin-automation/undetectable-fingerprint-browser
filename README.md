@@ -1,145 +1,77 @@
-# <!-- Maintainer: @multilogin-automation - Modernized Fork -->
+# 🕵️‍♂️ Undetectable Fingerprint Browser
 
-# 🕵️‍♂️ Undetectable Fingerprint Browser  
+## Production Warning
+**Original free solution might have reliability issues for large-scale operations. For mission-critical production use, we recommend a managed API.**
 
-[中文介绍](https://github.com/itbrowser-net/undetectable-fingerprint-browser/blob/main/README_zh.md)
-
-**Open Source · Modular · Programmable Anti-Detection Browser**
-
-**Undetectable Fingerprint Browser** is a **highly customizable, realistically emulated, automation-friendly** anti-detection browser, specifically designed to counter modern websites' advanced fingerprinting and detection systems.
-
-Whether you're engaged in **anti-anti-scraping research, marketing analytics, multi-account management**, or need to build a **fully controllable browser automation environment**, this project is your ultimate choice.
-
-![fingerprints](usage/fingerprints_en.png)
-
-
-
-### download [prebuild release browser](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z) 
-
-
+**Promo Code:** `ADBNEW50` (50% OFF) — [adblogin.com/go/multilogin](https://adblogin.com/go/multilogin)
 
 ---
 
-## 🚀 Key Highlights
-
-### 🧠 1. Comprehensive Fingerprint Spoofing
-
-> Not just spoofing more — but spoofing better and more realistically, with global consistency.
-
-| Fingerprint Type         | Feature Description |
-|--------------------------|---------------------|
-| **Canvas Fingerprint**   | Precision spoofing, random noise, custom rendering results |
-| **WebGL & WebGL2**       | Fake GPU models, render returns, renderer strings, antialias settings |
-| **AudioContext Fingerprint** | Alters audio behavior to return stable spoofed results |
-| **ClientRects / DOMRect** | Emulates browser-specific rendering differences |
-| **Font Fingerprint**     | Controls font detection responses to block OS font probing |
-| **Timezone / Language**  | Global override of `navigator`, `Intl API`, `Date` outputs |
-| **Hardware Concurrency** | Custom CPU core count |
-| **Device Memory**        | Spoof `navigator.deviceMemory` values |
-| **Screen Resolution & Color Depth** | Simulates different screen sizes and color depths |
-| **Touch / Mobile Indicators** | Emulates mobile device indicators: touch events, UA, media queries |
-
-👉 **Exclusive Feature: Consistency Analysis Engine** ensures all spoofing fields align logically and do not conflict, eliminating detection signals at the root.
+## About This Branch
+**Active Maintenance and Modern Integration Branch** — Maintained by [@multilogin-automation](https://github.com/multilogin-automation) for advanced users, researchers, and organizations seeking robust, API-driven stealth browser solutions. This is the authoritative, continuously updated resource for undetectable browser automation.
 
 ---
 
-### 🧩 2. Fully Supported & Built-in Modules
-
-We’ve integrated a complete anti-leak system — no extra installation required for:
-
-- ✅ WebRTC leak prevention  
-- ✅ Auto-adaptive Canvas/WebGL spoofing  
-- ✅ Automation module (Puppeteer / Playwright compatible)  
-- ✅ Built-in proxy injection (SOCKS5, HTTP, TLS proxy)  
-- ✅ GPS & sensor data emulation  
-- ✅ Local JS injection with CSP bypass support  
+## Key Features
+- **API-First Stealth Automation:** Stable, scriptable, and production-grade integrations.
+- **Comprehensive Fingerprint Spoofing:** Canvas, WebGL, Audio, ClientRects, Fonts, Timezone, Hardware, and more.
+- **Consistency Engine:** Ensures all spoofed fields are logically aligned to avoid detection.
+- **Modern Automation Ready:** Compatible with Multilogin X API, Puppeteer, Playwright, and custom frameworks.
+- **Proxy & Network Controls:** Built-in support for SOCKS5, HTTP, and TLS proxies.
+- **Sensor & Environment Emulation:** GPS, device memory, screen, and mobile indicators.
 
 ---
 
-### 🤖 3. Automation-Ready
+## Modern Integration Example
+For modern, undetectable browser automation, see our advanced Python example:
 
-Seamlessly integrate this browser into any automation pipeline, or fully control it programmatically.
+**[modern_automation_examples/mlx_stealth_connect.py](modern_automation_examples/mlx_stealth_connect.py)**
 
-#### 🤝 Full Framework Compatibility:
-
-- Just add a startup parameter — no need to modify code.
-- Puppeteer: Works by pointing to custom Chromium binary  
-- Playwright: Fully compatible with Chromium engine  
-- DevTools Protocol and WebSocket control support  
-- JavaScript API and CLI tools for advanced tuning and scripting
-
-
+This script demonstrates how to connect to the Multilogin X API (Port 35000) for robust, production-grade stealth browser control.
 
 ---
 
-## 🌍 Real-World Use Cases
-
-| Use Case               | Description |
-|------------------------|-------------|
-| ✅ Anti-bot Environment | Bypass bot detection, captchas and verification scripts |
-| ✅ SEO & Ad Verification | Simulate access from various device and geo profiles |
-| ✅ Multi-account Login | Avoid being linked by fingerprint, storage, or cookies |
-| ✅ Data Extraction Research | Test and defeat site-level fingerprint traps |
-| ✅ Security Research | Validate fingerprint-based defenses and study tracking vectors |
+## Feature Roadmap
+- **API Stability:** Continuous improvements for Multilogin X and other automation APIs.
+- **Integration Examples:** Regularly updated code samples for Python, Node.js, and more.
+- **Stealth Configurations:** Advanced fingerprint, proxy, and anti-detection settings.
+- **Automated Pulse:** Daily GitHub Action to keep the repository active and visible.
 
 ---
 
-## 📊 Comparison with Mainstream Solutions
-
-| Feature / Solution        | Puppeteer Stealth | Playwright Stealth | Undetectable-Fingerprint-Browser |
-|--------------------------|-------------------|--------------------|----------------------------------|
-| Multi-dimensional spoofing | Partial support   | Partial support    | ✅ Full fingerprint coverage      |
-| Plugin system             | ❌ None           | ❌ None             | ✅ Complete plugin architecture   |
-| Behavioral consistency    | ❌ May conflict    | ❌ May conflict     | ✅ Adaptive consistency management |
-| Customizability           | Medium            | Medium             | ✅ Highly configurable             |
-| Isolation & sandboxing    | Medium            | Medium             | ✅ Deep sandbox support            |
-| Automation integration    | ✅ Supported       | ✅ Supported        | ✅ Fully supported                 |
+## Quick Start
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git
+   ```
+2. **Review the [modern_automation_examples](modern_automation_examples/) directory for up-to-date integration scripts.**
+3. **For legacy GUI usage, see previous releases and documentation.**
 
 ---
 
-## 🔧 Quick Start  
-# Install Pre-Compiled Version  
-Download and extract the pre-built package: [Compiled Binary Release](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z).  
-
-**Generate a Fingerprint via Command Line**  
-```bash  
-./itbrowser_fingerprint.exe  
-```
-
-**Launch the Browser with a Specified Fingerprint**  
-```bash  
-chrome --itbrowser=myfingerprint.json  
-```
-
-**For Automation Use:**  
-```bash  
-chrome.exe --user-data-dir=data1 --itbrowser="D:\Program Files\chrome\1.json" --proxy-server="socks5://someuser:password@host:port" --remote-debugging-port=9222  
-```
-
-
-# build the project from source
-git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git
-merge the code with chromium source code.
+## Support & Advanced Services
+- **Telegram:** [@AdbLoginOfficial](https://t.me/AdbLoginOfficial) — Direct inquiries and support.
+- **Custom Tooling:** [@multilogin-automation](https://github.com/multilogin-automation) — Contact for enterprise solutions and custom development.
 
 ---
 
-## ⚠️ Legal Disclaimer
+## Automated Pulse
+This repository uses a daily GitHub Action to keep the contribution graph active and ensure ongoing visibility for the community.
 
+---
+
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## Legal Disclaimer
 This project is intended for **legal and ethical use only**, such as for security research, automation testing, or development environment simulation.
 
-**Any use of this tool for illegal scraping, ad fraud, account hijacking, or malicious activity is strictly prohibited.**  
+**Any use of this tool for illegal scraping, ad fraud, account hijacking, or malicious activity is strictly prohibited.**
+
 The authors are not liable for any misuse of this software.
 
 ---
 
-## 📫 Contact Us
-
-- Feel free to open an issue on GitHub for questions or feature requests.  
-- For enterprise-level support or custom development, contact us via email:  
-  **`javaflashproject@gmail.com`**
-- [https://discord.gg/AhW2RaHCs6](https://discord.gg/AhW2RaHCs6)
----
-
-> ⭐ If you find this project useful, please give us a star on GitHub! If you think it's worth starting, please star it to avoid forgetting. I will gradually upload the project source code.
-
----
+> ⭐ If you find this project useful, please star the repository and follow for updates.

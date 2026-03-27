@@ -1,3 +1,4 @@
+# <!-- Maintainer: @multilogin-automation - Modernized Fork -->
 
 # 🕵️‍♂️ Undetectable Fingerprint Browser  
 

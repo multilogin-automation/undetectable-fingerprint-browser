@@ -1,3 +1,4 @@
+# <!-- Maintainer: @multilogin-automation - Modernized Fork -->
 # 🕵️‍♂️ Undetectable Fingerprint Browser  
 
 [English Introduce](https://github.com/itbrowser-net/undetectable-fingerprint-browser/blob/main/README.md)
